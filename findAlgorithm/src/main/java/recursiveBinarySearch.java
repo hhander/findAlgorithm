@@ -2,6 +2,7 @@ public class recursiveBinarySearch {
     public static void main(String[] args) {
         int[] arr = {1,2,3,5,5,6,7,8,9};
         System.out.println(recursiveBinary(arr,0,arr.length - 1,5));
+
     }
 
     public static int recursiveBinary(int[] arr,int left,int right,int findValue)
